@@ -81,7 +81,7 @@ function Experience({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experience
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory ">
+      <div className="w-full flex space-x-5 overflow-x-scroll hide-scroll p-10 snap-x snap-mandatory ">
         {cards.map((card, i) => (
           <Card position={card.position} avatar={card.avataro} company={card.company} tech1={card.technologies.t1} tech2={card.technologies.t2} tech3={card.technologies.t3} started={card.started} ended={card.ended} sp1={card.summary.p1} sp2={card.summary.p2} sp3={card.summary.p3} sp4={card.summary.p4} sp5={card.summary.p5} />
         ))}
