@@ -11,7 +11,7 @@ function Hero({ }: Props) {
     delaySpeed: 2000,
   })
   return (
-    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <div className='h-screen pt-28 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircle />
       <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src="https://raw.githubusercontent.com/Cross-Rehk/Some_Extra_files/main/logo_flies/four.png" alt="" />
       <div  className='z-20'>
