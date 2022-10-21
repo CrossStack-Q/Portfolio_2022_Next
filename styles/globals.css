@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+h5 {
+    display: block;
+    font-size: .83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+
+h6 {
+    display: block;
+    font-size: .67em;
+    
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+} */
+
+
+
+
+@layer components {
+    .heroButton {
+        @apply px-6 py-2 border  border-[#242424] rounded-full uppercase text-xs tracking-widest  text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 cursor-pointer
+    }
+    .contactInput{
+        @apply outline-none bg-slate-400/10  rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A] hover:border-[#F7AB0A]
+    }
+}
