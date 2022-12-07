@@ -5,7 +5,7 @@ type Props = {}
 
 function Contact({}: Props) {
   return (
-    <div  className='h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-sm lg:max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div  className='h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-sx lg:max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Contact
         </h3>
@@ -18,7 +18,7 @@ function Contact({}: Props) {
             <div className='space-y-10'>
                 <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                <p className='text-2xl'>+1223244313</p>
+                <p className='text-2xl'>+9876543</p>
                 </div>
                 <div className='flex items-center space-x-5 justify-center'>
                 <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
