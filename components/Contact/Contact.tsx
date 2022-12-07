@@ -32,7 +32,7 @@ function Contact({}: Props) {
 
 
             <form action="" className='flex flex-col space-y-2 w-[90vw] mx-auto'>
-                <div className='flex  space-x-2'>
+                <div className='flex sm:flex-row flex-col space-x-2'>
                     <input placeholder='Name' className='contactInput' type="text" /><input placeholder='Email' className='contactInput' type="text" />
                 </div>
                 <input placeholder='Subject' className='contactInput' type="text" />
