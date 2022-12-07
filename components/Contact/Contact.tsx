@@ -32,10 +32,11 @@ function Contact({}: Props) {
 
 
             <form action="" className='flex flex-col space-y-2 w-[90vw] mx-auto'>
-                <div className='flex sm:flex-row flex-col justify-center items-center space-x-2'>
+                <div className='hidden md:flex space-x-2'>
                     <input placeholder='Name' className='contactInput' type="text" /><input placeholder='Email' className='contactInput' type="text" />
                 </div>
-                <input placeholder='Subject' className='contactInput' type="text" />
+                <input placeholder='Name' className='contactInput md:hidden' type="text" /><input placeholder='Email' className='contactInput' type="text" />
+                <input placeholder='Subject' className='contactInput md:hidden' type="text" />
                 <textarea placeholder='Write It' className='contactInput' name="" id="" ></textarea>
                 <button className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Submit</button>
             </form>
