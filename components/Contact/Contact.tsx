@@ -9,13 +9,13 @@ function Contact({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Contact
         </h3>
-        <div className='flex flex-col space-y-10 pt-12 '>
+        <div className='flex flex-col space-y-10 pt-20 '>
             <h4 className='text-4xl font-semibold text-center'>
                  I have got just what you need.{" "}
                  <span className='decoration-[#F7AB0A] underline'>Lets Talk</span>
             </h4>
 
-            <div className='space-y-10'>
+            <div className='space-y-5'>
                 <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                 <p className='text-2xl'>+9876543</p>
@@ -32,7 +32,7 @@ function Contact({}: Props) {
 
 
             <form action="" className='flex flex-col space-y-2 w-[90vw] mx-auto'>
-                <div className='flex sm:flex-row flex-col justify-center space-x-2'>
+                <div className='flex sm:flex-row flex-col justify-center items-center space-x-2'>
                     <input placeholder='Name' className='contactInput' type="text" /><input placeholder='Email' className='contactInput' type="text" />
                 </div>
                 <input placeholder='Subject' className='contactInput' type="text" />
