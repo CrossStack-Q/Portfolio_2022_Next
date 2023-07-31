@@ -33,7 +33,7 @@ function About({}: Props) {
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
-            Full Stack <span className='underline decoration-[#F7AB0A]/50'>Web Developer</span>
+            DevOps Engineer <span className='underline decoration-[#F7AB0A]/50'>Web Developer</span>
             </h4> 
             <p className='text-base'>
             An Enthusiast Coder Eager to contribute to team success through hard work, skills, attention to details and excellent organizational skills. Currently, Exploring the world of Technology as Web3 and as a Second year student. 
